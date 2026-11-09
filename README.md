@@ -24,6 +24,7 @@
 Для macOS / Linux:
    ```bash
    docker compose exec -T db psql -U postgres -d rfm_db < sql/01_schema.sql
+   ```
 3. Сгенерировать данные и запустить пайплайн:
    ```bash
    python data/generate_data.py
