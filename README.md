@@ -33,7 +33,7 @@
 
 ## Пример работы (визуализация)
 Тепловая карта удержания клиентов (Cohort Retention). Чем темнее цвет, тем выше процент вернувшихся клиентов:
-![Cohort Retention](https://outputs/cohort_heatmap.png)
+![Cohort Retention Heatmap](outputs/cohort_heatmap.png)
 
 ## Что демонстрирует проект
 - SQL (Оконные функции): использование NTILE(5) для деления клиентов на квантили (расчет RFM-оценок) в 02_rfm.sql.
